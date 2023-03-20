@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getaddressBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myaddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_myaddress",
+						"type": "address"
+					}
+				],
+				"name": "setaddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"address.sol": "addrexample"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"address.sol": {
+			"keccak256": "0x81c93c977f60ac17b869c5405e3b185b3057867e20570f62424fe92184641102",
+			"license": "GPT-3.0",
+			"urls": [
+				"bzz-raw://09440fe2a8dd35a9ab5361f873fe40a4e72c6aa46ed49ccc7a2b410e4b2bfbd9",
+				"dweb:/ipfs/QmaspjE67KgxRERy4xGk8xxxdRZm2dmKxmdv2iLA4Ey4PP"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[5]",
+						"name": "arr2",
+						"type": "uint256[5]"
+					}
+				],
+				"name": "f1memory",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fmemory",
+				"outputs": [
+					{
+						"internalType": "uint256[5]",
+						"name": "arr2",
+						"type": "uint256[5]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[5]",
+						"name": "arr1",
+						"type": "uint256[5]"
+					}
+				],
+				"name": "insert",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"memory&clldata.sol": "demo"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"memory&clldata.sol": {
+			"keccak256": "0x375970501be5ad99d6a5e8ca5dc2ddf88ac0eb7046b14ffe7574c8f516d1e169",
+			"license": "GPT-3.0",
+			"urls": [
+				"bzz-raw://ddc93093ca965b4562d16d5bf7aeeb9f9059f2dac5befde3fab0689663699e7a",
+				"dweb:/ipfs/QmZs9MD9cxhk2Gn59mPoLdBW5mJcxfa84Ei513SXJ5NeM6"
+			]
+		}
+	},
+	"version": 1
+}

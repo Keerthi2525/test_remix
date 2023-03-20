@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_mybool",
+						"type": "bool"
+					}
+				],
+				"name": "Updatebool",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "mybool",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"booleg.sol": "booleg"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"booleg.sol": {
+			"keccak256": "0x6b492286d9ba90586314b773d01b2204d73284d37e4e1cafbf277cbd5ddf1cba",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://0ec3d260fd8f490eca00bd765605adc352a219241c3c089ebbd4994707b2dc33",
+				"dweb:/ipfs/QmaXat5MKjGLD2Z1Awkz6yib9hYuy6trZZinpuWAuqbCqu"
+			]
+		}
+	},
+	"version": 1
+}

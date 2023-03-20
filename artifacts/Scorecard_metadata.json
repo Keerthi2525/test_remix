@@ -1,0 +1,150 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "firstName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "lastName",
+						"type": "string"
+					}
+				],
+				"name": "addStudentdetails",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sub1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sub2",
+						"type": "uint256"
+					}
+				],
+				"name": "addscore",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "stdScores",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "Id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sub1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sub2",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "student",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "firstName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "lastName",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Scorecard.sol": "Scorecard"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Scorecard.sol": {
+			"keccak256": "0x7df8ea15f98a9da68841c647b0d6510518d67368003e8a00eb7b52691f916da1",
+			"urls": [
+				"bzz-raw://7449d1bc13c0a5579fef73532ddee00237be86e161d90bf0fb715cb10a134378",
+				"dweb:/ipfs/QmSPoZwdznV3TiWk5MC6vqzXtnUAa7RG4DaLjHqsbTGTXW"
+			]
+		}
+	},
+	"version": 1
+}

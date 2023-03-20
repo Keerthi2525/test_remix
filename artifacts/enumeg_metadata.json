@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getDefaultChoice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getchoice",
+				"outputs": [
+					{
+						"internalType": "enum enumeg.Branch",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "setclass",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"enumeg.sol": "enumeg"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"enumeg.sol": {
+			"keccak256": "0xebf39402ae5e7cdce3c3924beeab669a66a8b57ddc0dfb6a66f53ed2a802b3c4",
+			"urls": [
+				"bzz-raw://cd51cbfede65eb89fe7d2e7f4a737a26e9ef48195ce5bd94c6b609be93931d97",
+				"dweb:/ipfs/QmNzTrBRwGfDGVgXdABvuDHdaGtZ8EZDC3TiWN5W18hMRP"
+			]
+		}
+	},
+	"version": 1
+}

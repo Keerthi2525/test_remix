@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"dynamicarray2.sol": "demop"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"dynamicarray2.sol": {
+			"keccak256": "0x30eca02eb5d1312884ad7e2894a59a8cdcbecdce82560ec591d1df473fe511d9",
+			"license": "GPT-3.0",
+			"urls": [
+				"bzz-raw://86cd1e42ac91b3412527b7611810ed73b998dc41c054339ad38e7c6ee389a7a7",
+				"dweb:/ipfs/QmVg8Yp9RpfEQP7QSK8B4ani6xktrNbBAzFpx3bm9SNZWj"
+			]
+		}
+	},
+	"version": 1
+}

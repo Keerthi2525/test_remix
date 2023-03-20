@@ -1,0 +1,185 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_firstName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lastName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_branch",
+						"type": "string"
+					}
+				],
+				"name": "addStudent",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "english",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "maths",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "hindi",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "social",
+						"type": "uint256"
+					}
+				],
+				"name": "addStudentScore",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "studentDetails",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "studentScore",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "english",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "maths",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "hindi",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "social",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "students",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "_firstName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lastName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_branch",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"firstcontract.sol": "firstcontract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"firstcontract.sol": {
+			"keccak256": "0x220fd285c26a7465221c002599473c0b30788e0cbe328500cabc932e049e1ba0",
+			"urls": [
+				"bzz-raw://5eb3484d87f5b7acf5e7080bdf8d9109209a392765d711c902592f5185c7ce9a",
+				"dweb:/ipfs/QmNRDtxsz8L7wnLLNAttiVxQk5jcb5RJz7CAA9gPp81gNi"
+			]
+		}
+	},
+	"version": 1
+}
